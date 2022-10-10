@@ -15,6 +15,9 @@ public class Main1 {
 
         tmp();
 
+        Man man = new Man("bob", 20, "Student");
+        System.out.println(man.toString());
+
     }
 
 
