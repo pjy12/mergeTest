@@ -11,7 +11,7 @@ public class Main1 {
         System.out.println(car.toString());
         System.out.println(c(1, 3));
         System.out.println(d(1, 6));
-        System.out.println(f(3, 10));
+        System.out.println(k(3, 10));
 
         tmp();
 
@@ -45,7 +45,7 @@ public class Main1 {
         return a-c;
     }
 
-    public static double f(int k, int m){
+    public static double k(int k, int m){
         return k/m;
     }
 
