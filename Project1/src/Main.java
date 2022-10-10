@@ -1,4 +1,4 @@
-public class Main1 {
+public class Main {
     public static void main(String[] args) {
         System.out.println("this is project1");
 
@@ -16,14 +16,14 @@ public class Main1 {
         System.out.println(d(1, 6));
         System.out.println(k(3, 10));
 
-        tmp();
 
         Mans mans = new Mans("bob", 20, "Student");
         mans = new Mans("kill", 34, "Teacher");
         System.out.println(mans.toString());
 
-        tmp2();
-        tmp3();
+        temp();
+        temp2();
+        temp3();
 
     }
 
@@ -54,18 +54,18 @@ public class Main1 {
         return k/m;
     }
 
-    public static void tmp3(){
+    public static void temp3(){
         System.out.println("this is tmp3");
     }
 
-    public static void tmp(){
+    public static void temp(){
         System.out.println("aaaaa");
         System.out.println("bbbbb");
         System.out.println("ccccc");
     }
 
 
-    public static void tmp2(){
+    public static void temp2(){
         System.out.println("ddddd");
         System.out.println("eeeee");
         System.out.println("fffff");

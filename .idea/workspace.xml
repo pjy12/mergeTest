@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb666347-b14a-446c-b927-e8af3144d9d5" name="Changes" comment="create project2" />
+    <list default="true" id="eb666347-b14a-446c-b927-e8af3144d9d5" name="Changes" comment="create project2">
+      <change beforePath="$PROJECT_DIR$/Project1/src/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +20,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/yeon/IdeaProjects/gitTest/mergeTest"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yeon/IdeaProjects/gitTest/mergeTest&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665406045228</updated>
       <workItem from="1665406047578" duration="504000" />
+      <workItem from="1665412724331" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="create project1">
       <created>1665406248917</created>
