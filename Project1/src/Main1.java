@@ -6,6 +6,8 @@ public class Main1 {
 
         System.out.println(e(1));
         System.out.println(e(4));
+        System.out.println(e(5));
+        System.out.println(e(1));
 
     }
 
