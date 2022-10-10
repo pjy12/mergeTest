@@ -7,6 +7,8 @@ public class Main1 {
         System.out.println(e(1));
         System.out.println(e(4));
 
+        Car car = new Car(4, 2001);
+        System.out.println(car.toString());
         System.out.println(c(1, 3));
         System.out.println(d(1, 6));
         System.out.println(f(3, 10));
