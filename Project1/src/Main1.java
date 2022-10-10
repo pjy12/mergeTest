@@ -2,21 +2,22 @@ public class Main1 {
     public static void main(String[] args) {
         System.out.println("this is project1");
 
-        a(1, 4);
+        a(1, 4, 5);
 
-        System.out.println(b(1));
-        System.out.println(b(4));
+        System.out.println(e(1));
+        System.out.println(e(4));
 
     }
 
 
-    public static void a(int i, int j){
+    public static void a(int i, int j, int k){
         System.out.println(i+j);
         System.out.println("====");
+        System.out.println(i+k);
         return;
     }
 
-    public static boolean b(int c){
+    public static boolean e(int c){
         if(c == 1){
             return true;
         }else{
@@ -30,5 +31,9 @@ public class Main1 {
 
     public static int d(int a, int c){
         return a-c;
+    }
+
+    public static double f(int k, int m){
+        return k/m;
     }
 }
