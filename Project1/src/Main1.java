@@ -9,14 +9,18 @@ public class Main1 {
 
         Car car = new Car(4, 2001);
         System.out.println(car.toString());
+
+        System.out.println(car.speed);
+        System.out.println(car.year);
         System.out.println(c(1, 3));
         System.out.println(d(1, 6));
         System.out.println(k(3, 10));
 
         tmp();
 
-        Man man = new Man("bob", 20, "Student");
-        System.out.println(man.toString());
+        Mans mans = new Mans("bob", 20, "Student");
+        mans = new Mans("kill", 34, "Teacher");
+        System.out.println(mans.toString());
 
         tmp2();
         tmp3();
