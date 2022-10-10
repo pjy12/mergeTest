@@ -4,8 +4,8 @@ public class Main1 {
 
         a(1, 4, 5);
 
-        System.out.println(e(1));
-        System.out.println(e(4));
+        System.out.println(b(1));
+        System.out.println(b(4));
 
         Car car = new Car(4, 2001);
         System.out.println(car.toString());
@@ -18,6 +18,7 @@ public class Main1 {
         Man man = new Man("bob", 20, "Student");
         System.out.println(man.toString());
 
+        tmp2();
         tmp3();
 
     }
@@ -30,7 +31,7 @@ public class Main1 {
         return;
     }
 
-    public static boolean e(int c){
+    public static boolean b(int c){
         if(c == 1){
             return true;
         }else{
@@ -51,5 +52,18 @@ public class Main1 {
 
     public static void tmp3(){
         System.out.println("this is tmp3");
+    }
+
+    public static void tmp(){
+        System.out.println("aaaaa");
+        System.out.println("bbbbb");
+        System.out.println("ccccc");
+    }
+
+
+    public static void tmp2(){
+        System.out.println("ddddd");
+        System.out.println("eeeee");
+        System.out.println("fffff");
     }
 }
