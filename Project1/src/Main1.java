@@ -13,6 +13,9 @@ public class Main1 {
         System.out.println(d(1, 6));
         System.out.println(f(3, 10));
 
+        Man man = new Man("bob", 20, "Student");
+        System.out.println(man.toString());
+
     }
 
 
