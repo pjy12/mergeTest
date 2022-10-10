@@ -13,6 +13,8 @@ public class Main1 {
         System.out.println(d(1, 6));
         System.out.println(f(3, 10));
 
+        tmp();
+
     }
 
 
@@ -40,5 +42,11 @@ public class Main1 {
 
     public static double f(int k, int m){
         return k/m;
+    }
+
+    public static void tmp(){
+        System.out.println("aaaaa");
+        System.out.println("bbbbb");
+        System.out.println("ccccc");
     }
 }
