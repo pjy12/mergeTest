@@ -1,8 +1,8 @@
-public class Car {
+public class Cars {
     public int speed;
     public int year;
 
-    public Car(int speed, int year){
+    public Cars(int speed, int year){
         this.speed = speed;
         this.year = year;
     }
