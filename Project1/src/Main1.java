@@ -23,4 +23,12 @@ public class Main1 {
             return false;
         }
     }
+
+    public static int c(int a, int b){
+        return a*b;
+    }
+
+    public static int d(int a, int c){
+        return a-c;
+    }
 }
