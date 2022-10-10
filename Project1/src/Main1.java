@@ -18,6 +18,8 @@ public class Main1 {
         Man man = new Man("bob", 20, "Student");
         System.out.println(man.toString());
 
+        tmp3();
+
     }
 
 
@@ -45,5 +47,9 @@ public class Main1 {
 
     public static double f(int k, int m){
         return k/m;
+    }
+
+    public static void tmp3(){
+        System.out.println("this is tmp3");
     }
 }
